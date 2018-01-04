@@ -16,6 +16,13 @@
 # Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 ARCH=`gcc -v 2>&1 | awk '/Target/ { print $2 }'`
 
+if [ ${1} == "32" ]
+then
+    ARCH=i686-linux-gnu
+    export CC="gcc -m32"
+    export CXX="g++ -m32"
+fi
+
 mkdir -p distrib/$ARCH
 cd  distrib/$ARCH
 PREFIX=`pwd`
