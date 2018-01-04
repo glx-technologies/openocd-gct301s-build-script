@@ -7,4 +7,4 @@ do
     cd ..
 done
 
-
+git clean -f -d
