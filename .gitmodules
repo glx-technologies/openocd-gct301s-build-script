@@ -1,7 +1,3 @@
-[submodule "OpenOCD"]
-	path = OpenOCD
-	url = https://github.com/arduino/OpenOCD.git
-
 [submodule "OpenOCD-GCT301S"]
 	path = OpenOCD-GCT301S
 	url = https://github.com/mowsong/OpenOCD-GCT301S.git
