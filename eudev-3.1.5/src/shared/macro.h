@@ -40,15 +40,15 @@
 
 /* Temporarily disable some warnings */
 #define DISABLE_WARNING_DECLARATION_AFTER_STATEMENT                     \
-        _Pragma("GCC diagnostic push");                                 \
-        _Pragma("GCC diagnostic ignored \"-Wdeclaration-after-statement\"")
+//        _Pragma("GCC diagnostic push");                                 \
+//        _Pragma("GCC diagnostic ignored \"-Wdeclaration-after-statement\"")
 
 #define DISABLE_WARNING_FORMAT_NONLITERAL                               \
-        _Pragma("GCC diagnostic push");                                 \
-        _Pragma("GCC diagnostic ignored \"-Wformat-nonliteral\"")
+//        _Pragma("GCC diagnostic push");                                 \
+//        _Pragma("GCC diagnostic ignored \"-Wformat-nonliteral\"")
 
 #define REENABLE_WARNING                                                \
-        _Pragma("GCC diagnostic pop")
+//        _Pragma("GCC diagnostic pop")
 
 #define XCONCATENATE(x, y) x ## y
 #define CONCATENATE(x, y) XCONCATENATE(x, y)
