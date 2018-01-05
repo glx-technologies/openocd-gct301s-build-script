@@ -81,7 +81,7 @@ make clean
 make -j4
 cd ..
 
-cd OpenOCD-GCT301S
+cd openocd-gct301s
 ./bootstrap
 export LIBUSB0_CFLAGS="-I$LIBUSB0_DIR/libusb/" 
 export LIBUSB0_LIBS="-L$LIBUSB0_DIR/libusb/.libs/ -lusb -lpthread" 
