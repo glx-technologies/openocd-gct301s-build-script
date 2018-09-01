@@ -1,6 +1,3 @@
 [submodule "libusb-compat-0.1"]
 	path = libusb-compat-0.1
 	url = https://github.com/libusb/libusb-compat-0.1.git
-[submodule "openocd-gct301s"]
-	path = openocd-gct301s
-	url = https://github.com/mowsong/openocd-gct301s
